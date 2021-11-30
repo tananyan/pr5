@@ -50,7 +50,7 @@ header {
 .one .logo_line {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  padding: 0 97px;
 }
 
 .one .logo_line .left_line {
@@ -70,35 +70,53 @@ header {
 
 .one .logo_line .right_line {
   display: flex;
-  /* justify-content: space-around;
-  align-items: center; */
+  margin-top: 17px;
 }
 
-button{
-  z-index: 1;
+.one .logo_line .text_call {
+  font-weight: 300;
+  font-size: 12px;
+  text-align: left;
+  color: #ffffff;
 }
 
-button .btn span {
-  font-size: 14px;
-  line-height: 46px;
-
-  align-items: center;
+.one .phone_number {
+  font-size: 22px;
   text-align: center;
   text-transform: uppercase;
-
   color: #ffffff;
-
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
 
-button .btn {
-  /* Кнопка */
+.one .logo_line .right_line .call {
+  width: 167px;
+}
 
-  /* position: absolute; */
+button.btn {
+  /* Кнопка */
+  /* display: block; */
   width: 172px;
   height: 46px;
-
   background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
   box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+
+  /* Текст */
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
+
+/* Секция-2 */
+
+/* Секция-3 */
+
+/* Секция-4 */
+
+/* Секция-5 */
+
+/* Секция-6 */
+
+/* Последняя */
