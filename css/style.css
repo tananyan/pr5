@@ -1,0 +1,104 @@
+* {
+  font-family: "Roboto", sans-serif;
+  /* Thin 100
+  Light 300
+  Regular 400
+  Bold 700
+  Black 900 */
+}
+
+/* Навигация */
+header {
+  height: 53px;
+  background: #212121;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu a.menu_link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.menu .menu_itm:not(:last-child) {
+  /*кроме последнего*/
+  border-right: 2px dotted black;
+  padding-right: 30px;
+}
+
+/* Секция-1 */
+.one {
+  background-image: url(../img/section-1/uber_bg.png);
+  min-height: 799px;
+}
+
+.one .line {
+  height: 84px;
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.one .logo_line {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.one .logo_line .left_line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 17px;
+}
+
+.logo_line .logo_text {
+  font-weight: 100;
+  font-size: 15px;
+  /* line-height: 68px; */
+  align-items: center;
+  color: #ffffff;
+}
+
+.one .logo_line .right_line {
+  display: flex;
+  /* justify-content: space-around;
+  align-items: center; */
+}
+
+button{
+  z-index: 1;
+}
+
+button .btn span {
+  font-size: 14px;
+  line-height: 46px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+button .btn {
+  /* Кнопка */
+
+  /* position: absolute; */
+  width: 172px;
+  height: 46px;
+
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
