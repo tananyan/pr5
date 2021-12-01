@@ -7,8 +7,13 @@
   Black 900 */
 }
 
+header{
+  position: relative;
+  height: 50px; /* * */
+}
+
 /* Навигация */
-header {
+nav {
   height: 53px;
   background: #212121;
 }
@@ -34,70 +39,55 @@ header {
   padding-right: 30px;
 }
 
-/* Секция-1 */
-.one {
-  background-image: url(../img/section-1/uber_bg.png);
-  min-height: 799px;
-}
-
-.one .line {
-  height: 84px;
+.subheader {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  height: 85px;
   background: rgba(0, 0, 0, 0.6);
-  mix-blend-mode: normal;
 }
 
-.one .logo_line {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 97px;
-}
-
-.one .logo_line .left_line {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+img.logo {
+  display: block;
+  max-width: 100%;
   margin-top: 17px;
 }
 
-.logo_line .logo_text {
+.subheader .logo_text {
   font-weight: 100;
   font-size: 15px;
   align-items: center;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 1px;
 }
 
-.one .logo_line .right_line {
-  display: flex;
-  margin-top: 17px;
-}
-
-.one .logo_line .text_call {
+.subheader .text_call {
   font-weight: 300;
   font-size: 12px;
-  text-align: left;
+  text-align: right;
   color: #ffffff;
+  margin-top: 18px;
 }
 
-.one .phone_number {
+.subheader .phone_number {
+  display: block;
+  font-weight: 400;
   font-size: 22px;
-  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.one .logo_line .right_line .call {
-  width: 167px;
-  margin-right: 18px;
+  text-align: right;
+  margin-top: 3px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 button.btn {
-  /* Кнопка */
-  /* display: block; */
   width: 172px;
   height: 46px;
   background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
   box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  margin-top: 19px;
 }
 
 span.buy {
@@ -110,38 +100,47 @@ span.buy {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
 
-.one .title {
+/* Секция-1 */
+.one {
+  background: url(../img/section-1/uber_bg.png) center center/cover no-repeat;
+  min-height: 800px;
   text-align: center;
+  padding: 150px 0 135px 0;
 }
 
 /* заголовки */
-.one .title .h1_uber {
+.one .h1_uber {
   font-weight: 900;
   font-size: 60px;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 68px;
+  /* margin-top: 68px; */
+  margin: 0;
 }
 
-.one .title .h2_uber {
+.one .h2_uber {
   font-weight: bold;
   font-size: 36px;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0;  
+  margin-top: 12px;
 }
 
-.one .title .title_text {
+.one .title_text {
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
-  margin: 17px 77px;
+  /* margin: 17px 77px; */
+  margin-top: 23px;
 }
 
 button.btn_send {
+  display: block;
   width: 259px;
   height: 63px;
-  margin-top: 55px;
+  margin: 115px auto 0 auto;
 }
 
 span.send {
