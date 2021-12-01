@@ -36,7 +36,7 @@ nav {
 .menu .menu_itm:not(:last-child) {
   /*кроме последнего*/
   border-right: 2px dotted black;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 
 .subheader {
