@@ -42,9 +42,8 @@ header {
 
 .one .line {
   height: 84px;
-  background: #000000;
+  background: rgba(0, 0, 0, 0.6);
   mix-blend-mode: normal;
-  opacity: 0.6;
 }
 
 .one .logo_line {
@@ -63,7 +62,6 @@ header {
 .logo_line .logo_text {
   font-weight: 100;
   font-size: 15px;
-  /* line-height: 68px; */
   align-items: center;
   color: #ffffff;
 }
@@ -89,6 +87,7 @@ header {
 
 .one .logo_line .right_line .call {
   width: 167px;
+  margin-right: 18px;
 }
 
 button.btn {
@@ -99,11 +98,55 @@ button.btn {
   background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
   box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
 
+span.buy {
   /* Текст */
   font-size: 14px;
   align-items: center;
   text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.one .title {
+  text-align: center;
+}
+
+/* заголовки */
+.one .title .h1_uber {
+  font-weight: 900;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 68px;
+}
+
+.one .title .h2_uber {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.one .title .title_text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 17px 77px;
+}
+
+button.btn_send {
+  width: 259px;
+  height: 63px;
+  margin-top: 55px;
+}
+
+span.send {
+  font-weight: normal;
+  font-size: 18px;
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
