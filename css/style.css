@@ -224,6 +224,31 @@ span.send {
 }
 
 /* Секция-3 */
+.three {
+  background: url(../img/section-3/mobile_bg.png) center center/cover no-repeat;
+  padding: 46px 0px 80px 0px;
+  text-align: center;
+  min-height: 865px;
+}
+
+.three .rect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 27px;
+  background: #000000;
+  margin: 0 auto;
+}
+
+.three .h3_ability {
+  font-weight: normal;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  margin: 0;
+}
 
 /* Секция-4 */
 
