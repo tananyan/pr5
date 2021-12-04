@@ -7,7 +7,7 @@
   Black 900 */
 }
 
-header{
+header {
   position: relative;
   height: 50px; /* * */
 }
@@ -123,7 +123,7 @@ span.buy {
   font-size: 36px;
   text-transform: uppercase;
   color: #ffffff;
-  margin: 0;  
+  margin: 0;
   margin-top: 12px;
 }
 
@@ -152,6 +152,76 @@ span.send {
 }
 
 /* Секция-2 */
+.two {
+  background: rgba(194, 194, 194, 0.25);
+  min-height: 850px;
+  text-align: center;
+  padding: 20px 0 64px 0;
+}
+
+.two .rect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 27px;
+  background: #000000;
+  margin: 0 auto;
+}
+
+.two .h3_prem {
+  font-weight: normal;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  margin: 0;
+}
+
+.two .h1_two {
+  font-weight: bold;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 30px;
+}
+
+.two .reason_item {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.two .reason_item .circle {
+  display: flex;
+  width: 116px;
+  height: 116px;
+  background: #1eacc7;
+  border-radius: 100%;
+  margin-right: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.two .reason_item .item_descr {
+  width: 371px;
+}
+
+.two .reason_item .item_descr .title_reason {
+  font-size: 17px;
+  line-height: 21px;
+  text-align: left;
+  color: #1eacc7;
+  font-weight: 400;
+}
+.two .reason_item .item_descr .text_reason {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: left;
+  color: #202020;
+}
 
 /* Секция-3 */
 
