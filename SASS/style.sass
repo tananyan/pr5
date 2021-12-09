@@ -3,7 +3,6 @@ $color_mine_shaft_approx: #212121
 $white: #ffffff
 $black: black
 $black_60: rgba(0, 0, 0, 0.6)
-$white_100: rgba(255, 255, 255, 1)
 $color_java_approx: #1eacc7
 $color_turquoise_blue_approx: #4ce2ff
 $black_12: rgba(0, 0, 0, 0.12)
@@ -23,6 +22,11 @@ $font_1: sans-serif
 header
   position: relative
   height: 50px
+
+img.logo
+  display: block
+  max-width: 100%
+  margin-top: 17px
 
 nav
   height: 53px
@@ -54,7 +58,7 @@ nav
     font-weight: 100
     font-size: 15px
     align-items: center
-    color: $white_100
+    color: $white
     margin-top: 1px
 
   .text_call
@@ -80,9 +84,7 @@ button
     width: 172px
     height: 46px
     background: linear-gradient(0deg, $color_java_approx 0, $color_turquoise_blue_approx 100%)
-		//If you use compass, instead of the line below you could use + box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
     box-shadow: inset 0 -3px 0 $black_12
-		//If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
     border-radius: 4px
     margin-top: 19px
 
@@ -99,7 +101,6 @@ span
     text-align: center
     text-transform: uppercase
     color: $white
-		//If you use compass, instead of the line below you could use + text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
     text-shadow: 1px 1px 0 $black_21
 
   &.send
@@ -107,7 +108,6 @@ span
     font-size: 18px
     text-transform: uppercase
     color: $white
-		//If you use compass, instead of the line below you could use + text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
     text-shadow: 1px 1px 0 $black_21
 
 .one
@@ -282,7 +282,59 @@ span
       margin-top: 75px
       cursor: progress
 
-img.logo
-  display: block
-  max-width: 100%
-  margin-top: 17px
+.fourth
+  position: relative
+  min-height: 895px
+  padding: 57px 0 138px 0
+  background: url(../img/section-4/Подложка.png) center center /contain
+  .rect
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 115px
+    height: 27px
+    background: $white
+    margin: 0 auto
+    z-index: 2
+  &_h3
+    position: relative
+    font-weight: normal
+    font-size: 11px
+    text-transform: uppercase
+    color: #070716
+    mix-blend-mode: normal
+    margin: 0
+    z-index: 2
+  &_h1
+    position: relative
+    font-weight: bold
+    font-size: 38px
+    align-items: center
+    text-align: center
+    text-transform: uppercase
+    color: #fff
+    margin-top: 35px
+    z-index: 2
+  &_img_auto
+    position: relative
+    display: block
+    margin: 56px auto 0 auto
+    z-index: 2
+  &_descr
+    text-align: center
+    color: #222222
+    font-size: 17px
+    font-weight: 300
+    line-height: 24px
+  .black
+    position: absolute
+    top: 0
+    left: 0
+    height: 499px
+    width: 100%
+    background-color: #070716
+    z-index: 1
+
+
+  
