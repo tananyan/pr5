@@ -92,6 +92,11 @@ button.btn {
   margin-top: 19px;
 }
 
+button.btn:hover {
+  background-color: #000;
+  opacity: 0.9;
+}
+
 button.btn_send {
   display: block;
   width: 259px;
@@ -368,7 +373,7 @@ span.send {
   position: relative;
   min-height: 895px;
   padding: 57px 0 138px 0;
-  background: url(../img/section-4/Подложка.png) center center/contain;
+  background: url(../img/section-4/Подложка.png) center center;
 }
 
 .fourth .rect {
