@@ -17,9 +17,7 @@ $font_1: sans-serif
 
 // mixin 
 =btn_hover
-  // transition: 0.7s all 
   &:hover
-    // background-image: none
     background-color: #000
     opacity: 0.9
 
@@ -290,7 +288,25 @@ span
       align-items: center
       margin: 0 auto
       margin-top: 75px
-      cursor: progress
+      cursor: pointer
+      &:before
+        content: ' '
+        display: block
+        height: 14px
+        width: 2px
+        background-color: #1EACC7
+        transition: 0.25s all
+      &:after
+        content: ' '
+        display: block
+        position: absolute
+        height: 2px
+        width: 14px
+        background-color: #1eacc7
+        transition: 0.25s all
+      &:hover
+        &:before, &::after
+          background-color: white
 
 .fourth
   position: relative
@@ -345,3 +361,87 @@ span
     width: 100%
     background-color: #070716
     z-index: 1
+
+.fifth
+  position: relative
+  min-height: 900px
+  padding: 67px 0 87px 0
+  background: #fff
+
+  .rect
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 115px
+    height: 27px
+    background: #000
+    margin: 0 auto
+    z-index: 2
+
+  &_h3
+    position: relative
+    font-weight: normal
+    font-size: 11px
+    text-transform: uppercase
+    color: #fff
+    mix-blend-mode: normal
+    margin: 0
+    z-index: 2
+
+  &_h1
+    position: relative
+    font-weight: bold
+    font-size: 38px
+    align-items: center
+    text-align: center
+    text-transform: uppercase
+    color: #222222
+    margin-top: 35px
+    z-index: 2
+
+  .require_block
+    margin-top: 30px
+    margin-bottom: 30px
+
+    .require_name
+      font-size: 22px
+      line-height: 24px
+      color: #27c0df
+      margin-left: 7px
+
+    ul
+      list-style-type: none
+    .require_list
+      padding-left: 55px
+      margin-top: 20px
+      li
+        font-weight: 300
+        font-size: 17px
+        color: #222222
+        margin-bottom: 5px
+        position: relative
+        &::before
+          content: ''
+          height: 20px
+          width: 21px
+          position: absolute
+          left: -30px
+          top: 2.5px
+
+          background: url(../img/section-5/blue.svg) center (center/cover) no-repeat
+
+    .req_text
+      font-weight: 300
+      font-size: 17px
+      line-height: 24px
+      color: #27c0df
+
+      margin-top: 25px
+
+  .second_color
+    .orangee
+      color: orange
+    .orangee_li
+      li::before
+        background: url(../img/section-5/orange.svg) center (center/cover) no-repeat
