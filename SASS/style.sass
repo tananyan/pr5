@@ -342,6 +342,15 @@ span
     color: #fff
     margin-top: 35px
     z-index: 2
+  &_h2
+    position: relative
+    font-weight: normal
+    font-size: 17px
+    align-items: center
+    text-align: center
+    color: #fff
+    margin-top: 1px
+    z-index: 2
   &_img_auto
     position: relative
     display: block
@@ -445,3 +454,133 @@ span
     .orangee_li
       li::before
         background: url(../img/section-5/orange.svg) center (center/cover) no-repeat
+
+.sixth
+  position: relative
+  min-height: 720px
+  padding: 50px 0
+  background: url(../img/section-6/world_bg.png) center center // cover no-repeat
+  .rect
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 115px
+    height: 27px
+    background: $white
+    margin: 0 auto
+  &_h3
+    font-weight: normal
+    font-size: 11px
+    text-transform: uppercase
+    color: #070716
+    mix-blend-mode: normal
+    margin: 0
+  &_h1
+    font-weight: bold
+    font-size: 38px
+    align-items: center
+    text-align: center
+    text-transform: uppercase
+    color: #fff
+    margin-top: 35px
+  &_h2
+    font-weight: normal
+    font-size: 17px
+    align-items: center
+    text-align: center
+    color: #fff
+    margin-top: 1px
+  .sub_text
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 50px
+    font-weight: 400
+    font-size: 15px
+    text-align: center
+    text-transform: uppercase
+    color: #1FBAD6
+    text-decoration: none
+    &:hover
+      text-decoration: none
+      color: #fff
+
+.footer
+  position: relative
+  min-height: 155px
+  padding: 11px 23px
+  background: white
+  &_rect
+    margin: 0 auto
+    width: 301px
+    height: 7px
+    background: #1FBAD6
+  &_blocks
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    margin-top: 37px
+
+    // 1
+    .footer_social
+      width: 156px
+      display: flex
+      justify-content: space-between
+      .social_item
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 35px
+        height: 35px
+        background-color: #070716
+        border-radius: 100%
+        text-decoration: none
+        i
+          color: #fff
+
+    // 2
+    .footer_links
+      // display:
+      text-align: center
+
+      .main_links
+        .f_link
+          font-style: normal
+          font-weight: 300
+          font-size: 15px
+          align-items: center
+          text-transform: uppercase
+          color: #070716
+          text-decoration: none
+          margin: 0px 24px
+          &:hover
+            text-decoration: none
+            color: #13dcff
+
+      .second_links
+        margin-top: 8px
+        .f_link2
+          font-style: normal
+          font-weight: 300
+          font-size: 11px
+          align-items: center
+          text-transform: uppercase
+          color: #999999
+          text-decoration: none
+          margin: 0px 11px
+          &:hover
+            text-decoration: none
+            color: #13dcff
+
+      .sub_text
+        font-weight: 400
+        font-size: 11px
+        text-align: center
+        text-transform: uppercase
+        color: #1FBAD6
+        text-decoration: none
+        &:hover
+          text-decoration: none
+          color: #000
+    // 3 
+    // .footer_application

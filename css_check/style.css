@@ -444,6 +444,19 @@ span.send {
   z-index: 2;
 }
 
+.fourth_h2 {
+  position: relative;
+  font-weight: normal;
+  font-size: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 1px;
+  z-index: 2;
+}
+
 .fourth_img_auto {
   position: relative;
   display: block;
@@ -572,5 +585,195 @@ span.send {
 
 .fifth .second_color .orangee_li li::before {
   background: url(../img/section-5/orange.svg) center center/cover no-repeat;
+}
+
+.sixth {
+  position: relative;
+  min-height: 720px;
+  padding: 50px 0;
+  background: url(../img/section-6/world_bg.png) center center;
+}
+
+.sixth .rect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 115px;
+  height: 27px;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+.sixth_h3 {
+  font-weight: normal;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #070716;
+  mix-blend-mode: normal;
+  margin: 0;
+}
+
+.sixth_h1 {
+  font-weight: bold;
+  font-size: 38px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 35px;
+}
+
+.sixth_h2 {
+  font-weight: normal;
+  font-size: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 1px;
+}
+
+.sixth .sub_text {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 50px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  text-decoration: none;
+}
+
+.sixth .sub_text:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer {
+  position: relative;
+  min-height: 155px;
+  padding: 11px 23px;
+  background: white;
+}
+
+.footer_rect {
+  margin: 0 auto;
+  width: 301px;
+  height: 7px;
+  background: #1FBAD6;
+}
+
+.footer_blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 37px;
+}
+
+.footer_blocks .footer_social {
+  width: 156px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_blocks .footer_social .social_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #070716;
+  border-radius: 100%;
+  text-decoration: none;
+}
+
+.footer_blocks .footer_social .social_item i {
+  color: #fff;
+}
+
+.footer_blocks .footer_links {
+  text-align: center;
+}
+
+.footer_blocks .footer_links .main_links .f_link {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #070716;
+  text-decoration: none;
+  margin: 0px 24px;
+}
+
+.footer_blocks .footer_links .main_links .f_link:hover {
+  text-decoration: none;
+  color: #13dcff;
+}
+
+.footer_blocks .footer_links .second_links {
+  margin-top: 8px;
+}
+
+.footer_blocks .footer_links .second_links .f_link2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #999999;
+  text-decoration: none;
+  margin: 0px 11px;
+}
+
+.footer_blocks .footer_links .second_links .f_link2:hover {
+  text-decoration: none;
+  color: #13dcff;
+}
+
+.footer_blocks .footer_links .sub_text {
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  text-decoration: none;
+}
+
+.footer_blocks .footer_links .sub_text:hover {
+  text-decoration: none;
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
