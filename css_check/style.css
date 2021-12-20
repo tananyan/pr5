@@ -657,6 +657,8 @@ span.send {
 }
 
 .sixth .sub_text:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
   text-decoration: none;
   color: #fff;
 }
@@ -733,6 +735,8 @@ span.send {
 }
 
 .footer_blocks > div .footer_social .social_item i:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
   color: #1FBAD6;
 }
 
@@ -754,6 +758,8 @@ span.send {
 }
 
 .footer_blocks > div .footer_links .main_links .f_link:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
   text-decoration: none;
   color: #13dcff;
 }
@@ -776,6 +782,8 @@ span.send {
 }
 
 .footer_blocks > div .footer_links .second_links .f_link2:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
   text-decoration: none;
   color: #13dcff;
 }
@@ -790,6 +798,8 @@ span.send {
 }
 
 .footer_blocks > div .footer_links .sub_text:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
   text-decoration: none;
   color: #000;
 }
@@ -826,6 +836,8 @@ span.send {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 
 .footer_blocks > div .footer_application .a_store::after {
@@ -833,6 +845,8 @@ span.send {
 }
 
 .footer_blocks > div .footer_application .a_store:hover {
+  -webkit-transition: 1s all;
+  transition: 1s all;
   color: #1FBAD6;
 }
 /*# sourceMappingURL=style.css.map */
