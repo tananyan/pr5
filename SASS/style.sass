@@ -49,6 +49,9 @@ nav
     font-weight: 300
     font-size: 15px
     color: $white
+    // cursor: pointer !important
+    // &:hover
+    //   cursor: pointer
 
   .menu_itm:not(:last-child)
     border-right: 2px dotted $black
@@ -520,10 +523,15 @@ span
     justify-content: space-between
     align-items: flex-start
     margin-top: 37px
+  &_blocks > div
+    width: 33%
+    &:last-child      // &:nth-child(3)
+      display: flex
+      justify-content: flex-end
 
     // 1
     .footer_social
-      width: 156px
+      width: 158px
       display: flex
       justify-content: space-between
       .social_item
@@ -537,12 +545,12 @@ span
         text-decoration: none
         i
           color: #fff
+        i:hover
+          color: #1FBAD6
 
     // 2
     .footer_links
-      // display:
       text-align: center
-
       .main_links
         .f_link
           font-style: normal
@@ -556,7 +564,6 @@ span
           &:hover
             text-decoration: none
             color: #13dcff
-
       .second_links
         margin-top: 8px
         .f_link2
@@ -571,7 +578,6 @@ span
           &:hover
             text-decoration: none
             color: #13dcff
-
       .sub_text
         font-weight: 400
         font-size: 11px
@@ -582,5 +588,29 @@ span
         &:hover
           text-decoration: none
           color: #000
+
     // 3 
-    // .footer_application
+    .footer_application
+      width: 259px
+      display: flex
+      justify-content: space-between
+      .a_div
+        display: flex
+        align-items: center
+        height: 20px
+        width: 80px
+        background-color: #000
+        border-radius: 15px
+      .a_store
+        margin-left: 8px
+        text-decoration: none
+        cursor: pointer
+        font-weight: 400
+        font-size: 11px
+        text-align: center
+        text-transform: uppercase
+        color: #fff
+        &::after
+          content: 'Скачать'
+        &:hover
+          color: #1FBAD6
