@@ -1,8 +1,4 @@
 @charset "UTF-8";
-* {
-  font-family: Roboto, sans-serif;
-}
-
 header {
   position: relative;
   height: 50px;
@@ -93,6 +89,8 @@ button.btn {
 }
 
 button.btn:hover {
+  -webkit-transition: 0.7s all;
+  transition: 0.7s all;
   background-color: #000;
   opacity: 0.9;
 }
@@ -836,8 +834,8 @@ span.send {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  -webkit-transition: 0.5s all;
-  transition: 0.5s all;
+  -webkit-transition: 0.7s all;
+  transition: 0.7s all;
 }
 
 .footer_blocks > div .footer_application .a_store::after {
@@ -848,5 +846,9 @@ span.send {
   -webkit-transition: 1s all;
   transition: 1s all;
   color: #1FBAD6;
+}
+
+* {
+  font-family: Roboto, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
