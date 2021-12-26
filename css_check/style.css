@@ -1,4 +1,8 @@
 @charset "UTF-8";
+* {
+  font-family: Roboto, sans-serif;
+}
+
 header {
   position: relative;
   height: 50px;
@@ -27,14 +31,14 @@ nav {
   list-style-type: none;
 }
 
-.menu a.menu_link {
+.menu_itm .menu_link {
   text-decoration: none;
   font-weight: 300;
   font-size: 15px;
   color: #ffffff;
 }
 
-.menu .menu_itm:not(:last-child) {
+.menu_itm:not(:last-child) {
   border-right: 2px dotted black;
   padding-right: 50px;
 }
@@ -848,7 +852,73 @@ span.send {
   color: #1FBAD6;
 }
 
-* {
-  font-family: Roboto, sans-serif;
+@media (max-width: 1200px) {
+  .menu_itm .menu_link {
+    font-size: 11px;
+  }
+  .menu_itm:not(:last-child) {
+    padding-right: 33px;
+  }
+  .one .h1_uber {
+    font-size: 50px;
+  }
+  .one .h2_uber {
+    padding: 0 120px;
+  }
+  .two .reason_item .item_descr {
+    width: 300px;
+  }
+  .three .item_mobile {
+    width: 280px;
+    height: 250px;
+  }
+  .three .item_mobile h4.h4_mobile {
+    font-size: 20px;
+  }
+  .three .item_mobile .mobile_plus {
+    margin-top: 50px;
+  }
+  .footer_rect {
+    width: 338px;
+  }
+  .footer_blocks > div {
+    width: 60%;
+  }
+  .footer_blocks > div:first-child {
+    width: 20%;
+  }
+  .footer_blocks > div:last-child {
+    width: 20%;
+  }
+}
+
+@media (max-width: 991px) {
+  .menu_itm .menu_link {
+    font-size: 11px;
+  }
+  .menu_itm:not(:last-child) {
+    padding-right: 6px;
+  }
+  .subheader .logo_text {
+    font-size: 12px;
+  }
+  .subheader .phone_number {
+    font-size: 20px;
+  }
+  button.btn {
+    width: 100%;
+    height: 30px;
+    margin-top: 29px;
+  }
+  span.buy {
+    vertical-align: top;
+    font-size: 11px;
+  }
+  .one .h1_uber {
+    font-size: 50px;
+  }
+  .one .h2_uber {
+    padding: 0 120px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

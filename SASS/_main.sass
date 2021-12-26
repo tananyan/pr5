@@ -18,18 +18,15 @@ nav
   padding: 15px 70px
   margin: 0
   list-style-type: none
-  a.menu_link
-    text-decoration: none
-    font-weight: 300
-    font-size: 15px
-    color: $white
-    // cursor: pointer !important
-    // &:hover
-    //   cursor: pointer
-
-  .menu_itm:not(:last-child)
-    border-right: 2px dotted $black
-    padding-right: 50px
+  &_itm
+    .menu_link
+      text-decoration: none
+      font-weight: 300
+      font-size: 15px
+      color: $white
+    &:not(:last-child)
+      border-right: 2px dotted $black
+      padding-right: 50px
 
 .subheader
   position: absolute
