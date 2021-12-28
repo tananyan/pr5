@@ -15,6 +15,9 @@ img.logo {
 }
 
 nav {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
   height: 53px;
   background: #212121;
 }
@@ -41,6 +44,10 @@ nav {
 .menu_itm:not(:last-child) {
   border-right: 2px dotted black;
   padding-right: 50px;
+}
+
+.hamburger {
+  display: none;
 }
 
 .subheader {
@@ -968,17 +975,22 @@ span.send {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
     height: 100vh;
     width: 50%;
-    right: 0;
+    left: -100%;
     top: 0;
     background-color: rgba(3, 3, 3, 0.85);
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  .menu_active {
+    left: 0;
   }
   .menu_itm:not(:last-child) {
     border: 0px;
@@ -987,6 +999,40 @@ span.send {
   .menu_itm:not(:first-child) {
     margin: 0;
     margin-top: 1.5vh;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    width: 25px;
+    height: 11px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: aliceblue;
+    margin-bottom: 2px;
+    -webkit-transition: 1.5s all;
+    transition: 1.5s all;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    -webkit-transform: translateX(-5px) translateY(5px) rotate(90deg);
+            transform: translateX(-5px) translateY(5px) rotate(90deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    -webkit-transform: translateX(0px) translateY(5px) rotate(270deg);
+            transform: translateX(0px) translateY(5px) rotate(270deg);
+  }
+  .hamburger_active span:nth-child(3) {
+    -webkit-transform: translateX(5px) translateY(5px) rotate(450deg);
+            transform: translateX(5px) translateY(5px) rotate(450deg);
   }
   .fourth_img_auto {
     width: 100%;
