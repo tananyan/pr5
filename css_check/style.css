@@ -1092,6 +1092,9 @@ span.send {
   .fourth_img_auto {
     width: 100%;
   }
+  .footer_rect {
+    width: 250px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1130,9 +1133,6 @@ span.send {
   }
   .one .title_text {
     font-size: 16px;
-  }
-  .footer_rect {
-    width: 250px;
   }
 }
 /*# sourceMappingURL=style.css.map */
