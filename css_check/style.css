@@ -88,6 +88,10 @@ nav {
   text-decoration: none;
 }
 
+.subheader .xs-vision {
+  display: none;
+}
+
 button.btn {
   width: 172px;
   height: 46px;
@@ -968,6 +972,14 @@ span.send {
 }
 
 @media (max-width: 767px) {
+  img.logo {
+    position: relative;
+    max-width: 100%;
+    margin-top: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
   .menu {
     position: fixed;
     padding: 25px 20px;
@@ -1005,7 +1017,7 @@ span.send {
     position: absolute;
     right: 20px;
     width: 25px;
-    height: 11px;
+    height: 11.9px;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -1033,6 +1045,50 @@ span.send {
   .hamburger_active span:nth-child(3) {
     -webkit-transform: translateX(5px) translateY(5px) rotate(450deg);
             transform: translateX(5px) translateY(5px) rotate(450deg);
+  }
+  .subheader .phone_number {
+    font-size: 18px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .subheader .logo_text {
+    display: none;
+  }
+  .subheader .xs-vision {
+    display: block;
+  }
+  .subheader .xs-hidden {
+    display: none;
+  }
+  button.btn {
+    display: block;
+    width: 150px;
+    margin: 0px auto;
+    margin-top: 7px;
+  }
+  button.btn_send {
+    width: 210px;
+    height: 50px;
+    margin-top: 50px;
+  }
+  span.buy {
+    font-size: 10px;
+  }
+  span.send {
+    font-size: 16px;
+  }
+  .one {
+    padding: 110px 0 20px;
+  }
+  .one .h2_uber {
+    padding: 0 85px;
+    font-size: 21px;
+  }
+  .one .title_text {
+    display: none;
   }
   .fourth_img_auto {
     width: 100%;
