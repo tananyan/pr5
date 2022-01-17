@@ -83,6 +83,53 @@
           text-align: center
         .text_reason
           text-align: center
+  .three
+    .item_mobile
+      width: 210px
+      height: 210px
+      h4.h4_mobile
+        font-size: 18px
+      .mobile_plus
+        margin-top: 20px
+  .fourth
+    &_img_auto
+      width: 100%
+  .footer
+    &_blocks
+      flex-wrap: wrap
+    &_blocks > div
+      width: 100%
+      display: flex
+      justify-content: center
+      margin-bottom: 20px
+      &:first-child
+        width: 100%
+      &:last-child
+        width: 100%
+        justify-content: center
+      // 1
+      .footer_social
+        .social_item
+          i:hover
+            none
+      // 2
+      .footer_links
+        .main_links
+          .f_link
+            &:hover
+              none
+        .second_links
+          .f_link2
+            &:hover
+              none
+        .sub_text
+          &:hover
+            none
+      // 3 
+      .footer_application
+        .a_store
+          &:hover
+            none
 
 @media (max-width: 767px)   //576px-767px
   img.logo
@@ -169,6 +216,14 @@
       font-size: 21px
     .title_text
       display: none
+  .three
+    .item_mobile
+      width: 75%
+      height: 270px
+      h4.h4_mobile
+        font-size: 20px
+      .mobile_plus
+        margin-top: 55px
   .fourth
     &_img_auto
       width: 100%
@@ -183,7 +238,7 @@
       font-size: 12px
   button
     &.btn
-      width: 110px
+      width: 115px
       height: 22px
       margin-top: 0px
       padding: 0
@@ -207,4 +262,26 @@
       padding: 0px
     .title_text
       font-size: 16px
+  .three
+    .item_mobile
+      width: 75%
+      height: 215px
+      h4.h4_mobile
+        font-size: 17px
+      .mobile_plus
+        margin-top: 15px
   .footer
+    &_rect
+      width: 100px
+    &_blocks > div      
+      // 2
+      .footer_links
+        .main_links
+          .f_link
+            margin: 0 5px
+            font-size: 12px
+        .second_links
+          .f_link2
+            margin: 0 10px
+            font-size: 12px
+
